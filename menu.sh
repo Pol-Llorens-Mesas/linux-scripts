@@ -131,10 +131,10 @@ executar_parametre() {
         *)
             echo "Error: Opció no vàlida."
             echo "Exemples:"
-            echo "./menu.sh 1 \"Salvador Rueda\""
-            echo "./menu.sh 2 root"
+            echo "./menu.sh 1 \"Nom\""
+            echo "./menu.sh 2 usuari"
             echo "./menu.sh 3"
-            echo "./menu.sh -a \"Salvador Rueda\""
+            echo "./menu.sh -a \"Nom\""
             return 1
             ;;
     esac
